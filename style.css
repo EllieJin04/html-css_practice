@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ h1{
+  border: 5px solid red;
+  width: 30px;
+  height: 250px;
+  overflow: auto;
+  border-radius: 15px;
+ }
+
+ h2{
+  background-color: red;
+  border: 10px ;
+  border-color: red;
+ }
+ h3{
+  background-color: rgba(255, 100, 58, 0);
+  color: hsla(0,100% , 50%, 0.3);
+ }
+
+ /* Hue 
+   0 and 360 --> red 
+   120 --> green 
+   240 --> blue 
+   
+   Saturation --> purity of color 0 to 100% */
+   h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+   }
+
+   p{
+    word-spacing: 35px;
+    text-align: center;
+    font-family: "Protest Revolution", sans-serif;
+   }
+   .styling{
+    line-height: 60px;
+   }

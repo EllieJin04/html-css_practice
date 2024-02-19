@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  background-color: rgb(54, 221, 165);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-style: italic;
+  padding-left: 15px;
+}
+
+.nav a:hover {
+  color: rgb(181, 14, 14);
+}
+
+.body1 {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.body1 img {
+  height: 150px;
+}
+
+.body1 .intro {
+  margin-left: 40px;
+}
+
+.body1 .intro h1 {
+  color: brown;
+}
+
+.body1 .intro span {
+  font-weight: bold;
+  color: gray;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.body1 .intro p {
+  margin-top: 15px;
+  color: gray;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.body2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body2 .skills {
+  color: brown;
+  margin-top: 15px;
+}
+
+.body2 .tables {
+  padding: 2px;
+  border: 1px solid gray;
+  margin-top: 20px;
+  height: 170px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.t1 {
+  border: 1px solid gray;
+}
+
+.t2 {
+  border: 1px solid gray;
+  margin-left: 1px;
+}
+
+.body2 .skills table {
+  padding: 10px;
+
+  line-height: 33px;
+}
+
+.body2 .contact h3 {
+  color: brown;
+  margin: 15px 0px 15px 0px;
+}
+
+.body2 .contact input {
+  margin: 13px 0px 13px 0px;
+  padding-left: 30px;
+  width: 500px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+
+.body2 .contact input::placeholder {
+  font-style: italic;
+}
+
+.interests h3 {
+  color: brown;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
